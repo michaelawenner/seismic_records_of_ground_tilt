@@ -33,3 +33,11 @@ conda config --add channels conda-forge
 
 ## File explanation
 
+All data is stored in the **data** directory. Subdirectories include forceplate, seismometer, tiltmeter and from seismometer converted tilt data for the Illgraben and the USGS debris flow flume.
+
+The code to process the data can be found  in the **Process_data** jupyter notebook located in the **code** directory.
+The **process_tilt_data.py** contains some helper functions that are used to plot the data.
+The code to produce the figures shown in the paper can be found in the **Make_plots** jupyter notebook
+
+
+
